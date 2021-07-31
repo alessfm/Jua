@@ -44,7 +44,7 @@ npm start
 ```
 npm test
 ```
-> _Eu nunca usei..., mas está lá por padrão_
+> Realiza o teste desejado, ainda não criei nenhum.
 
 **Nota:** Execute primeiro o `npm run watch` e depois o `npm start`, para assim, o Jua ficar sempre atualizado com as mudanças no código, tirando a necessidade de repetir comandos ou atualizar a página. Se o Jua não sofrer alterações, repita o processo até funcionar.
 
