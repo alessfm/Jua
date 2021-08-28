@@ -1,7 +1,7 @@
 {
   "name": "jua",
   "version": "0.5.0",
-  "description": "Guias para novos desenvolvedores.",
+  "description": "O mais simples guia de tecnologia.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
