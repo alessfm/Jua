@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../assets/styles/index.scss';
-import Editor from './components/editor';
+import Sidebar from './components/sidenav/sidebar';
 
 function Bundle(){
   return(
     <>
-      <Editor/>
+      <Sidebar/>
+      {/* <Main/> */}
     </>
   )
 }
