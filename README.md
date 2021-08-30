@@ -49,7 +49,9 @@ npm test
 
 **Nota:** Execute primeiro o `npm run watch` e depois o `npm start`, para assim, o Jua ficar **sempre atualizado** com as mudanças no código, tirando a necessidade de repetir comandos ou atualizar a página. 
 
-Se o Jua não sofrer alterações, **repita o processo** até funcionar.
+Se o Jua não sofrer alterações, feche a demo e **repita o processo** até funcionar.
+
+**Detalhe:** Se você fizer alterações no main.js ou preload.js, ou adicionar arquivos a mais, recomenda-se fechar a demo e repetir o processo. Mudanças desse nível, tendem a passar despercebidas pelo electron-reload e não são aplicadas automaticamente.
 
 Sugestões sempre são bem-vindas.
 <br><br>
@@ -57,7 +59,7 @@ Sugestões sempre são bem-vindas.
 **🦗 Encontrou um bug?**
 ---
 
-Sinta-se à vontade para **criar uma issue** com título e descrição **[aqui](https://github.com/alessfm/jua/issues)** . Se você já tiver uma solução para o problema, **eu adoraria ver sua [pull request](https://github.com/alessfm/jua/pulls)**!
+Sinta-se à vontade para **criar uma issue** com título e descrição **[aqui](https://github.com/alessfm/jua/issues)**. Se você já tiver uma solução para o problema, **eu adoraria ver sua [pull request](https://github.com/alessfm/jua/pulls)**!
 <br><br>
 
 **📘 Licença**
@@ -68,7 +70,7 @@ Licença **MIT** - [Alessandro Figueiredo Malheiro](https://github.com/alessfm/)
 
 **🌟 Créditos**
 ---
-Logo e variações feitas por <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons, </a>obtidas pelo wesbite <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+Logo e variações feitas por <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>, obtidas pelo wesbite <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
 
 Ícones feitos por <a href="https://fontawesome.com/">Font Awesome</a>.
 
