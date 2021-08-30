@@ -6,7 +6,8 @@ export default function Sidebar()
 {
   return(
     <div className="sidenav">
-      <Items/>
+      <Buscador/>
+      {/* <Items/> */}
     </div>
   )
 }

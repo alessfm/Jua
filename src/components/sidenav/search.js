@@ -1,5 +1,5 @@
 import React from 'react';
-// import {ReactComponent as Search} from '../../../assets/icons/search.svg';
+import Search from '../../../assets/icons/search.svg';
 
 export default function Buscador()
 {
@@ -8,7 +8,7 @@ export default function Buscador()
     <input className="btn-input" placeholder="pergunta?"></input>
     <button className="btn" 
       onClick={()=>{electron.notificationApi.sendNotification(
-      'Buscando...')}}>Btn
+      'Buscando...')}}><img src={Search} alt="Busca" />
     </button>
   </div>
   )

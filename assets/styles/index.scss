@@ -101,7 +101,7 @@ Elements
 
 .sidenav {
   height: 100%;
-  width: 15%;
+  width: 90%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -169,15 +169,12 @@ Elements
   color: var(--clr-white);
 } 
 .btn {
-  padding: 0.35rem 0.75rem;
-  letter-spacing: 1.6px;
-  font-size: 0.75rem;
+  padding: 5rem 5rem;
   margin-left: 30%;
   color: var(--clr-white);
   background: var(--clr-primary-5);
   border-radius: var(--radius);
   border-color: transparent;
-  text-transform: uppercase;
   transition: var(--transition);
   cursor: pointer;
 }
