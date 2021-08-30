@@ -30,13 +30,13 @@ Variables
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
+  /* other colors for UI effects */
   --clr-white: #fff;
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
-  --clr-green-dark: hsl(125, 67%, 44%);
-  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-red: hsl(360, 67%, 44%);
+  --clr-green: hsl(125, 67%, 44%);
   --clr-black: #222;
 
+  /* other features */
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.75rem;
@@ -52,9 +52,7 @@ Global Styles
 ===============
 */
 
-*,
-::after,
-::before {
+*,::after,::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -73,10 +71,7 @@ ul {
 a {
   text-decoration: none;
 }
-h1,
-h2,
-h3,
-h4 {
+h1,h2,h3,h4 {
   letter-spacing: var(--spacing);
   line-height: 1.25;
   margin-bottom: 0.75rem;
@@ -100,10 +95,40 @@ p {
 
 /*
 =============== 
-Items
+Elements
 ===============
 */
 
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--clr-primary-1);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.logo{
+  width: 64px;
+  height: 64px;
+}
+.items{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--clr-primary-9);
+  display: block;
+  cursor: pointer;
+}
+.items:hover {
+  color: var(--clr-primary-4);
+}
+.main {
+  margin-left: 25%;
+  padding: 0px 10px;
+}
 .section-title {
   text-align: center;
   margin: 2rem 0 2rem 0;
@@ -114,7 +139,7 @@ Items
   background: var(--clr-primary-5);
   margin: 0 auto;
 }
-.idea {
+.box {
   width: 45vw;
   max-width: var(--max-width);
   margin: 2rem auto;
@@ -176,8 +201,7 @@ Items
   background: var(--clr-primary-1);
   color: var(--clr-white);
 }
-.prev-btn,
-.next-btn {
+.prev-btn,.next-btn {
   background: transparent;
   border-color: transparent;
   font-weight: bold;
@@ -187,67 +211,34 @@ Items
   font-size: 1rem;
   cursor: pointer;
 }
-.sidenav {
-  height: 100%;
-  width: 15%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: var(--clr-primary-1);
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-.items{
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: var(--clr-primary-9);
-  display: block;
-  cursor: pointer;
-}
-.items:hover {
-  color: var(--clr-primary-4);
-}
-.main {
-  margin-left: 25%;
-  padding: 0px 10px;
-}
-// @media screen and (max-height: 450px) {
-//   .sidenav {padding-top: 15px;}
-//   .sidenav a {font-size: 18px;}
-// }
 @media screen and (min-width: 800px) {
   h1 {
-      font-size: 3rem;
+    font-size: 3rem;
   }
   h2 {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
   h3 {
-      font-size: 1.75rem;
+    font-size: 1.75rem;
   }
   h4 {
-      font-size: 1rem;
+    font-size: 1rem;
   }
   body {
-      font-size: 1rem;
+    font-size: 1rem;
   }
-  h1,
-  h2,
-  h3,
-  h4 {
-      line-height: 1;
+  h1,h2,h3,h4 {
+    line-height: 1;
   }
 }
 @media screen and (min-width: 775px) {
   .btn-container {
-      margin: 0 auto;
-      max-width: 350px;
+    margin: 0 auto;
+    max-width: 350px;
   }
 }
 @media screen and (min-width: 576px) {
   .container {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }

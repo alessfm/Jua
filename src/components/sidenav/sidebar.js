@@ -6,7 +6,6 @@ export default function Sidebar()
 {
   return(
     <div className="sidenav">
-      <Buscador/>
       <Items/>
     </div>
   )
