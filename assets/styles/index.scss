@@ -101,7 +101,7 @@ Elements
 
 .sidenav {
   height: 100%;
-  width: 90%;
+  width: 12.5%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -113,14 +113,17 @@ Elements
 .logo{
   width: 64px;
   height: 64px;
+  margin-left: 20%;
 }
 .items{
+  height: 45%;
+  width: 45%;
   padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: var(--clr-primary-9);
-  display: block;
+  display: flex;
   cursor: pointer;
+
 }
 .items:hover {
   color: var(--clr-primary-4);
@@ -169,7 +172,7 @@ Elements
   color: var(--clr-white);
 } 
 .btn {
-  padding: 5rem 5rem;
+  padding: 0.5rem 0.3rem;
   margin-left: 30%;
   color: var(--clr-white);
   background: var(--clr-primary-5);

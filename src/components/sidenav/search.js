@@ -8,7 +8,7 @@ export default function Buscador()
     <input className="btn-input" placeholder="pergunta?"></input>
     <button className="btn" 
       onClick={()=>{electron.notificationApi.sendNotification(
-      'Buscando...')}}><img src={Search} alt="Busca" />
+      'Buscando...')}}><img src={Search}/>
     </button>
   </div>
   )
