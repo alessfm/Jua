@@ -116,17 +116,16 @@ Elements
   margin-left: 20%;
 }
 .items{
-  height: 45%;
-  width: 45%;
+  height: 3.2rem;
+  width: 3.2rem;
   padding: 6px 8px 6px 16px;
-  font-size: 20px;
-  color: var(--clr-primary-9);
+  margin-left: 20%;
+  fill: var(--clr-primary-9);
   display: flex;
   cursor: pointer;
-
 }
 .items:hover {
-  color: var(--clr-primary-4);
+  fill: var(--clr-primary-4);
 }
 .main {
   margin-left: 25%;
